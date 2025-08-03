@@ -1,0 +1,42 @@
+* {
+    font-size: 2rem;
+}
+
+#calculator,
+#panel,
+#buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+input {
+    border-radius: 3px;
+    border-color: lightgrey;
+    text-align: right;
+}
+
+button {
+    border-radius: 3px;
+    flex: 1;
+}
+
+#add,
+#subtract,
+#multiply,
+#divide,
+#equals {
+    background-color: yellow;
+}
+
+#clear {
+    background-color: orangered;
+}
